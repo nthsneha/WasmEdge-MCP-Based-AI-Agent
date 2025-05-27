@@ -1,4 +1,4 @@
-# AI Agent to prepare for certification programmes  
+# AI Agent to prepare for certification programs
 
 ## This is a pretest model for the LFX CNCF-WasmEdge Mentorship project. 
 
