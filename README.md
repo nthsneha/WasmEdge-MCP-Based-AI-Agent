@@ -40,4 +40,4 @@ The context switching endpoint implemented in the pretest using sentence-transfo
 
 ![alt text](Images/image3.jpeg)
 
-Thank you for your time. I am excited to learn and grow through this mentorship opportunity. I'd be happy to improvise based on your feedback or suggestions. 
+Thank you for your time. I am excited to learn and grow through this mentorship opportunity. I'd be happy to improvise based on your feedback or suggestions!
