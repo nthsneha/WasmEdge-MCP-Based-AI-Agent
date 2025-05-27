@@ -26,7 +26,7 @@ Contains 60 MCQs along with answers and explanation stored in a json file for th
 
 A simple diagram explaining the system architecture:  
 
-![system architecture](image.png)
+![system architecture](images/image.png)
 
 
 ## Known Issue  
@@ -34,10 +34,10 @@ The context switching endpoint implemented in the pretest using sentence-transfo
 
 ## Screenshots of the frontend UI
 
-![Practice question](A8A6FC5D-6D8C-47C0-BD0F-D29C91C3C8D3_1_201_a.jpeg)  
+![Practice question](images/image1.jpeg)  
 
-![alt text](B36F1027-4F69-48C9-A979-8B4C2537FD82_1_201_a-1.jpeg)  
+![alt text](images/image2.jpeg)  
 
-![alt text](8D94CC6F-C851-42C4-8D38-6576B0376361_1_201_a.jpeg)
+![alt text](images/image3.jpeg)
 
 Thank you for your time. I am excited to learn and grow through this mentorship opportunity. I'd be happy to improvise based on your feedback or suggestions. 
