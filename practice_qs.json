@@ -1,0 +1,662 @@
+[
+  {
+    "question": "What does the AWS shared responsibility model mean?",
+    "options": [
+      "AWS manages security for the cloud",
+      "Customer manages everything",
+      "AWS manages everything",
+      "Customer is responsible for cloud infrastructure"
+    ],
+    "answer": "AWS manages security *of* the cloud, customers manage security *in* the cloud.",
+    "explanation": "AWS handles physical infrastructure. Customers must configure secure access, networks, etc."
+  },
+  {
+    "question": "Which AWS service is used to host static websites?",
+    "options": [
+      "EC2",
+      "S3",
+      "RDS",
+      "Lambda"
+    ],
+    "answer": "S3",
+    "explanation": "Amazon S3 allows hosting static websites including HTML, CSS, and JavaScript."
+  },
+  {
+    "question": "Which service helps with distributing content globally with low latency?",
+    "options": [
+      "CloudFront",
+      "S3",
+      "EBS",
+      "EC2"
+    ],
+    "answer": "CloudFront",
+    "explanation": "CloudFront is AWS's content delivery network (CDN)."
+  },
+  {
+    "question": "What is the main benefit of using AWS Lambda?",
+    "options": [
+      "Run servers faster",
+      "Autoscale manually",
+      "Serverless computing",
+      "Reduced EC2 cost"
+    ],
+    "answer": "Serverless computing",
+    "explanation": "Lambda lets you run code without provisioning servers."
+  },
+  {
+    "question": "Which AWS service provides a NoSQL database?",
+    "options": [
+      "RDS",
+      "DynamoDB",
+      "Redshift",
+      "Aurora"
+    ],
+    "answer": "DynamoDB",
+    "explanation": "DynamoDB is a fully managed NoSQL database service."
+  },
+  {
+    "question": "Which service is used to manage permissions across AWS?",
+    "options": [
+      "IAM",
+      "EC2",
+      "VPC",
+      "CloudWatch"
+    ],
+    "answer": "IAM",
+    "explanation": "IAM (Identity and Access Management) controls access to AWS resources."
+  },
+  {
+    "question": "Which pricing model allows you to save money for predictable usage?",
+    "options": [
+      "On-Demand",
+      "Spot",
+      "Reserved Instances",
+      "Free Tier"
+    ],
+    "answer": "Reserved Instances",
+    "explanation": "Reserved Instances are cheaper if you commit to 1- or 3-year usage."
+  },
+  {
+    "question": "Which service enables monitoring of AWS resources?",
+    "options": [
+      "CloudWatch",
+      "CloudTrail",
+      "IAM",
+      "Shield"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "CloudWatch monitors metrics like CPU usage, disk I/O, etc."
+  },
+  {
+    "question": "What is the AWS Free Tier?",
+    "options": [
+      "A paid subscription for enterprise support",
+      "A 3-month limited AWS trial",
+      "A pricing option for student accounts",
+      "A way to explore AWS for free for 12 months"
+    ],
+    "answer": "A way to explore AWS for free for 12 months",
+    "explanation": "Free Tier allows limited access to many services free for 12 months."
+  },
+  {
+    "question": "Which service automates software deployment to EC2 instances?",
+    "options": [
+      "CodeDeploy",
+      "CloudFormation",
+      "CloudTrail",
+      "Route 53"
+    ],
+    "answer": "CodeDeploy",
+    "explanation": "AWS CodeDeploy automates application deployment to EC2 and more."
+  },
+  {
+    "question": "What is Amazon VPC used for?",
+    "options": [
+      "Launching Lambda functions",
+      "Setting up virtual networks",
+      "Storing backup data",
+      "Managing user identities"
+    ],
+    "answer": "Setting up virtual networks",
+    "explanation": "VPC (Virtual Private Cloud) allows you to create isolated networks."
+  },
+  {
+    "question": "Which service helps detect and respond to security findings?",
+    "options": [
+      "Inspector",
+      "Macie",
+      "GuardDuty",
+      "CloudTrail"
+    ],
+    "answer": "GuardDuty",
+    "explanation": "GuardDuty provides threat detection and continuous monitoring."
+  },
+  {
+    "question": "Which AWS database is suitable for complex SQL queries on large datasets?",
+    "options": [
+      "DynamoDB",
+      "Redshift",
+      "Aurora",
+      "RDS"
+    ],
+    "answer": "Redshift",
+    "explanation": "Amazon Redshift is a data warehouse designed for big data analytics."
+  },
+  {
+    "question": "What is AWS CloudTrail used for?",
+    "options": [
+      "Monitoring server load",
+      "Real-time app performance monitoring",
+      "Auditing API calls and user actions",
+      "Creating virtual networks"
+    ],
+    "answer": "Auditing API calls and user actions",
+    "explanation": "CloudTrail records API activity and user actions."
+  },
+  {
+    "question": "Which service provides automatic scaling of resources?",
+    "options": [
+      "CloudFormation",
+      "Auto Scaling",
+      "IAM",
+      "Lightsail"
+    ],
+    "answer": "Auto Scaling",
+    "explanation": "Auto Scaling adjusts EC2 instances based on traffic/load."
+  },
+  {
+    "question": "Which storage service is optimized for infrequently accessed data?",
+    "options": [
+      "EBS",
+      "S3 Standard",
+      "S3 Glacier",
+      "EFS"
+    ],
+    "answer": "S3 Glacier",
+    "explanation": "S3 Glacier is ideal for archiving and long-term storage."
+  },
+  {
+    "question": "What is the purpose of AWS Organizations?",
+    "options": [
+      "Creating user accounts",
+      "Hosting apps",
+      "Managing multiple AWS accounts",
+      "Building APIs"
+    ],
+    "answer": "Managing multiple AWS accounts",
+    "explanation": "AWS Organizations lets you manage billing and policies across accounts."
+  },
+  {
+    "question": "Which tool allows infrastructure to be described as code?",
+    "options": [
+      "CloudFormation",
+      "Elastic Beanstalk",
+      "CodePipeline",
+      "CloudTrail"
+    ],
+    "answer": "CloudFormation",
+    "explanation": "AWS CloudFormation allows infrastructure setup through templates."
+  },
+  {
+    "question": "Which AWS service allows domain registration?",
+    "options": [
+      "Route 53",
+      "CloudFront",
+      "Lambda",
+      "IAM"
+    ],
+    "answer": "Route 53",
+    "explanation": "Route 53 handles DNS and domain name registration."
+  },
+  {
+    "question": "Which EC2 pricing model is best for temporary workloads?",
+    "options": [
+      "Reserved",
+      "Dedicated",
+      "Spot",
+      "On-Demand"
+    ],
+    "answer": "Spot",
+    "explanation": "Spot Instances are cheap but can be interrupted, ideal for temporary tasks."
+  },
+  {
+    "question": "What is the main benefit of regions and availability zones?",
+    "options": [
+      "Pricing optimization",
+      "Data encryption",
+      "High availability and fault tolerance",
+      "Faster billing"
+    ],
+    "answer": "High availability and fault tolerance",
+    "explanation": "Spreading across AZs improves uptime and reliability."
+  },
+  {
+    "question": "What AWS tool helps estimate monthly cloud costs?",
+    "options": [
+      "Cost Explorer",
+      "TCO Calculator",
+      "Budgets",
+      "Pricing Calculator"
+    ],
+    "answer": "Pricing Calculator",
+    "explanation": "The AWS Pricing Calculator helps estimate costs based on usage."
+  },
+  {
+    "question": "Which service is a Platform-as-a-Service (PaaS)?",
+    "options": [
+      "EC2",
+      "Elastic Beanstalk",
+      "VPC",
+      "S3"
+    ],
+    "answer": "Elastic Beanstalk",
+    "explanation": "Elastic Beanstalk lets you deploy web apps without managing infrastructure."
+  },
+  {
+    "question": "Which service lets you run containerized applications?",
+    "options": [
+      "Lambda",
+      "EKS",
+      "CloudTrail",
+      "RDS"
+    ],
+    "answer": "EKS",
+    "explanation": "Amazon EKS is AWS's managed Kubernetes service for containers."
+  },
+  {
+    "question": "What is the primary benefit of using cloud computing?",
+    "options": [
+      "Manual scaling",
+      "Upfront hardware cost",
+      "Global reach and elasticity",
+      "Fixed pricing"
+    ],
+    "answer": "Global reach and elasticity",
+    "explanation": "Cloud computing enables global deployment and dynamic scaling."
+  },
+  {
+    "question": "Which service manages user identities and access?",
+    "options": [
+      "IAM",
+      "S3",
+      "EC2",
+      "CloudWatch"
+    ],
+    "answer": "IAM",
+    "explanation": "IAM lets you define users, roles, and permissions."
+  },
+  {
+    "question": "Which tool helps automate CI/CD pipelines?",
+    "options": [
+      "CodePipeline",
+      "CloudTrail",
+      "VPC",
+      "IAM"
+    ],
+    "answer": "CodePipeline",
+    "explanation": "AWS CodePipeline automates software release processes."
+  },
+  {
+    "question": "What is the primary function of AWS WAF?",
+    "options": [
+      "Traffic routing",
+      "Data encryption",
+      "Filtering malicious web traffic",
+      "Storage"
+    ],
+    "answer": "Filtering malicious web traffic",
+    "explanation": "AWS WAF protects web apps by blocking harmful requests."
+  },
+  {
+    "question": "Which support plan provides 24x7 access to Cloud Support Engineers?",
+    "options": [
+      "Basic",
+      "Developer",
+      "Business",
+      "Free Tier"
+    ],
+    "answer": "Business",
+    "explanation": "The Business plan includes 24x7 support and faster response."
+  },
+  {
+    "question": "Which storage solution provides file-level shared storage?",
+    "options": [
+      "EBS",
+      "S3",
+      "EFS",
+      "Glacier"
+    ],
+    "answer": "EFS",
+    "explanation": "Elastic File System provides scalable file storage accessible from multiple EC2s."
+  },
+  {
+    "question": "Which tool helps automate CI/CD pipelines? (variant 1)",
+    "options": [
+      "CloudTrail",
+      "CodePipeline",
+      "VPC",
+      "IAM"
+    ],
+    "answer": "CodePipeline",
+    "explanation": "AWS CodePipeline automates software release processes."
+  },
+  {
+    "question": "What is the main benefit of using AWS Lambda? (variant 2)",
+    "options": [
+      "Serverless computing",
+      "Autoscale manually",
+      "Reduced EC2 cost",
+      "Run servers faster"
+    ],
+    "answer": "Serverless computing",
+    "explanation": "Lambda lets you run code without provisioning servers."
+  },
+  {
+    "question": "Which service enables monitoring of AWS resources? (variant 3)",
+    "options": [
+      "CloudTrail",
+      "IAM",
+      "Shield",
+      "CloudWatch"
+    ],
+    "answer": "CloudWatch",
+    "explanation": "CloudWatch monitors metrics like CPU usage, disk I/O, etc."
+  },
+  {
+    "question": "What is the main benefit of using AWS Lambda? (variant 4)",
+    "options": [
+      "Run servers faster",
+      "Serverless computing",
+      "Autoscale manually",
+      "Reduced EC2 cost"
+    ],
+    "answer": "Serverless computing",
+    "explanation": "Lambda lets you run code without provisioning servers."
+  },
+  {
+    "question": "Which AWS service allows domain registration? (variant 5)",
+    "options": [
+      "Route 53",
+      "Lambda",
+      "IAM",
+      "CloudFront"
+    ],
+    "answer": "Route 53",
+    "explanation": "Route 53 handles DNS and domain name registration."
+  },
+  {
+    "question": "Which service helps with distributing content globally with low latency? (variant 6)",
+    "options": [
+      "CloudFront",
+      "EC2",
+      "S3",
+      "EBS"
+    ],
+    "answer": "CloudFront",
+    "explanation": "CloudFront is AWS's content delivery network (CDN)."
+  },
+  {
+    "question": "What does the AWS shared responsibility model mean? (variant 7)",
+    "options": [
+      "Customer is responsible for cloud infrastructure",
+      "AWS manages security for the cloud",
+      "Customer manages everything",
+      "AWS manages everything"
+    ],
+    "answer": "AWS manages security *of* the cloud, customers manage security *in* the cloud.",
+    "explanation": "AWS handles physical infrastructure. Customers must configure secure access, networks, etc."
+  },
+  {
+    "question": "Which support plan provides 24x7 access to Cloud Support Engineers? (variant 8)",
+    "options": [
+      "Basic",
+      "Free Tier",
+      "Business",
+      "Developer"
+    ],
+    "answer": "Business",
+    "explanation": "The Business plan includes 24x7 support and faster response."
+  },
+  {
+    "question": "Which service lets you run containerized applications? (variant 9)",
+    "options": [
+      "EKS",
+      "CloudTrail",
+      "Lambda",
+      "RDS"
+    ],
+    "answer": "EKS",
+    "explanation": "Amazon EKS is AWS's managed Kubernetes service for containers."
+  },
+  {
+    "question": "Which service automates software deployment to EC2 instances? (variant 10)",
+    "options": [
+      "Route 53",
+      "CloudFormation",
+      "CloudTrail",
+      "CodeDeploy"
+    ],
+    "answer": "CodeDeploy",
+    "explanation": "AWS CodeDeploy automates application deployment to EC2 and more."
+  },
+  {
+    "question": "Which service is used to manage permissions across AWS? (variant 11)",
+    "options": [
+      "EC2",
+      "VPC",
+      "CloudWatch",
+      "IAM"
+    ],
+    "answer": "IAM",
+    "explanation": "IAM (Identity and Access Management) controls access to AWS resources."
+  },
+  {
+    "question": "Which AWS service provides a NoSQL database? (variant 12)",
+    "options": [
+      "Redshift",
+      "RDS",
+      "Aurora",
+      "DynamoDB"
+    ],
+    "answer": "DynamoDB",
+    "explanation": "DynamoDB is a fully managed NoSQL database service."
+  },
+  {
+    "question": "Which service helps detect and respond to security findings? (variant 13)",
+    "options": [
+      "Inspector",
+      "GuardDuty",
+      "CloudTrail",
+      "Macie"
+    ],
+    "answer": "GuardDuty",
+    "explanation": "GuardDuty provides threat detection and continuous monitoring."
+  },
+  {
+    "question": "Which support plan provides 24x7 access to Cloud Support Engineers? (variant 14)",
+    "options": [
+      "Developer",
+      "Business",
+      "Free Tier",
+      "Basic"
+    ],
+    "answer": "Business",
+    "explanation": "The Business plan includes 24x7 support and faster response."
+  },
+  {
+    "question": "Which storage solution provides file-level shared storage? (variant 15)",
+    "options": [
+      "EBS",
+      "Glacier",
+      "S3",
+      "EFS"
+    ],
+    "answer": "EFS",
+    "explanation": "Elastic File System provides scalable file storage accessible from multiple EC2s."
+  },
+  {
+    "question": "Which AWS service provides a NoSQL database? (variant 16)",
+    "options": [
+      "DynamoDB",
+      "RDS",
+      "Aurora",
+      "Redshift"
+    ],
+    "answer": "DynamoDB",
+    "explanation": "DynamoDB is a fully managed NoSQL database service."
+  },
+  {
+    "question": "Which AWS database is suitable for complex SQL queries on large datasets? (variant 17)",
+    "options": [
+      "Redshift",
+      "Aurora",
+      "DynamoDB",
+      "RDS"
+    ],
+    "answer": "Redshift",
+    "explanation": "Amazon Redshift is a data warehouse designed for big data analytics."
+  },
+  {
+    "question": "What is the primary function of AWS WAF? (variant 18)",
+    "options": [
+      "Data encryption",
+      "Storage",
+      "Filtering malicious web traffic",
+      "Traffic routing"
+    ],
+    "answer": "Filtering malicious web traffic",
+    "explanation": "AWS WAF protects web apps by blocking harmful requests."
+  },
+  {
+    "question": "Which support plan provides 24x7 access to Cloud Support Engineers? (variant 19)",
+    "options": [
+      "Free Tier",
+      "Basic",
+      "Business",
+      "Developer"
+    ],
+    "answer": "Business",
+    "explanation": "The Business plan includes 24x7 support and faster response."
+  },
+  {
+    "question": "What AWS tool helps estimate monthly cloud costs? (variant 20)",
+    "options": [
+      "Budgets",
+      "Cost Explorer",
+      "TCO Calculator",
+      "Pricing Calculator"
+    ],
+    "answer": "Pricing Calculator",
+    "explanation": "The AWS Pricing Calculator helps estimate costs based on usage."
+  },
+  {
+    "question": "Which service is a Platform-as-a-Service (PaaS)? (variant 21)",
+    "options": [
+      "VPC",
+      "S3",
+      "EC2",
+      "Elastic Beanstalk"
+    ],
+    "answer": "Elastic Beanstalk",
+    "explanation": "Elastic Beanstalk lets you deploy web apps without managing infrastructure."
+  },
+  {
+    "question": "Which service helps detect and respond to security findings? (variant 22)",
+    "options": [
+      "CloudTrail",
+      "Macie",
+      "Inspector",
+      "GuardDuty"
+    ],
+    "answer": "GuardDuty",
+    "explanation": "GuardDuty provides threat detection and continuous monitoring."
+  },
+  {
+    "question": "Which service automates software deployment to EC2 instances? (variant 23)",
+    "options": [
+      "CloudTrail",
+      "Route 53",
+      "CodeDeploy",
+      "CloudFormation"
+    ],
+    "answer": "CodeDeploy",
+    "explanation": "AWS CodeDeploy automates application deployment to EC2 and more."
+  },
+  {
+    "question": "What AWS tool helps estimate monthly cloud costs? (variant 24)",
+    "options": [
+      "Cost Explorer",
+      "Budgets",
+      "Pricing Calculator",
+      "TCO Calculator"
+    ],
+    "answer": "Pricing Calculator",
+    "explanation": "The AWS Pricing Calculator helps estimate costs based on usage."
+  },
+  {
+    "question": "What is the AWS Free Tier? (variant 25)",
+    "options": [
+      "A 3-month limited AWS trial",
+      "A way to explore AWS for free for 12 months",
+      "A pricing option for student accounts",
+      "A paid subscription for enterprise support"
+    ],
+    "answer": "A way to explore AWS for free for 12 months",
+    "explanation": "Free Tier allows limited access to many services free for 12 months."
+  },
+  {
+    "question": "What is the AWS Free Tier? (variant 26)",
+    "options": [
+      "A way to explore AWS for free for 12 months",
+      "A paid subscription for enterprise support",
+      "A pricing option for student accounts",
+      "A 3-month limited AWS trial"
+    ],
+    "answer": "A way to explore AWS for free for 12 months",
+    "explanation": "Free Tier allows limited access to many services free for 12 months."
+  },
+  {
+    "question": "What AWS tool helps estimate monthly cloud costs? (variant 27)",
+    "options": [
+      "TCO Calculator",
+      "Cost Explorer",
+      "Budgets",
+      "Pricing Calculator"
+    ],
+    "answer": "Pricing Calculator",
+    "explanation": "The AWS Pricing Calculator helps estimate costs based on usage."
+  },
+  {
+    "question": "Which service helps detect and respond to security findings? (variant 28)",
+    "options": [
+      "GuardDuty",
+      "CloudTrail",
+      "Macie",
+      "Inspector"
+    ],
+    "answer": "GuardDuty",
+    "explanation": "GuardDuty provides threat detection and continuous monitoring."
+  },
+  {
+    "question": "Which AWS service provides a NoSQL database? (variant 29)",
+    "options": [
+      "DynamoDB",
+      "RDS",
+      "Aurora",
+      "Redshift"
+    ],
+    "answer": "DynamoDB",
+    "explanation": "DynamoDB is a fully managed NoSQL database service."
+  },
+  {
+    "question": "What is Amazon VPC used for? (variant 30)",
+    "options": [
+      "Setting up virtual networks",
+      "Managing user identities",
+      "Storing backup data",
+      "Launching Lambda functions"
+    ],
+    "answer": "Setting up virtual networks",
+    "explanation": "VPC (Virtual Private Cloud) allows you to create isolated networks."
+  }
+]
